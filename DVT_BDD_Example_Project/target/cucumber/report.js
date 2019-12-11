@@ -296,11 +296,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 7275120400,
+  "duration": 7439997600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 9566600,
+  "duration": 8879500,
   "status": "passed"
 });
 formatter.scenario({
@@ -581,35 +581,35 @@ formatter.match({
   "location": "NPW_Step_Definitions.i_have_navigated_to_EasiPlus_Quote_PreDEV()"
 });
 formatter.result({
-  "duration": 20704088900,
+  "duration": 16672532500,
   "status": "passed"
 });
 formatter.match({
   "location": "NPW_Step_Definitions.easiplus_Quote_PreDEV_Page_loads()"
 });
 formatter.result({
-  "duration": 349716400,
+  "duration": 382121700,
   "status": "passed"
 });
 formatter.match({
   "location": "NPW_Step_Definitions.click_Select_Cover_Me_and_My_Direct_Family()"
 });
 formatter.result({
-  "duration": 938218200,
+  "duration": 935942500,
   "status": "passed"
 });
 formatter.match({
   "location": "NPW_Step_Definitions.who_do_you_want_to_cover_Header_Loads()"
 });
 formatter.result({
-  "duration": 353479200,
+  "duration": 349695200,
   "status": "passed"
 });
 formatter.match({
   "location": "NPW_Step_Definitions.select_Myself_from_the_Select_Who_You_Want_to_Cover_dropdown()"
 });
 formatter.result({
-  "duration": 700303200,
+  "duration": 616020100,
   "status": "passed"
 });
 formatter.match({
@@ -626,7 +626,7 @@ formatter.match({
   "location": "NPW_Step_Definitions.entering_a_and_selecting_the_from_the_slider(String,String)"
 });
 formatter.result({
-  "duration": 862104400,
+  "duration": 923398500,
   "status": "passed"
 });
 formatter.match({
@@ -639,14 +639,14 @@ formatter.match({
   "location": "NPW_Step_Definitions.amount_is_calculated(String)"
 });
 formatter.result({
-  "duration": 1438296000,
+  "duration": 1475605300,
   "status": "passed"
 });
 formatter.match({
   "location": "NPW_Step_Definitions.clicking_Add_To_Cover()"
 });
 formatter.result({
-  "duration": 844616300,
+  "duration": 715812300,
   "status": "passed"
 });
 formatter.match({
@@ -659,50 +659,49 @@ formatter.match({
   "location": "NPW_Step_Definitions.is_added_to_Quote_Summary(String)"
 });
 formatter.result({
-  "duration": 1447261900,
+  "duration": 1494412800,
   "status": "passed"
 });
 formatter.match({
   "location": "NPW_Step_Definitions.clicking_the_Dropdown_icon()"
 });
 formatter.result({
-  "duration": 498134500,
+  "duration": 495472200,
   "status": "passed"
 });
 formatter.match({
   "location": "NPW_Step_Definitions.the_Quote_Summary_is_minimized_or_maximized()"
 });
 formatter.result({
-  "duration": 16000,
+  "duration": 13200,
   "status": "passed"
 });
 formatter.match({
   "location": "NPW_Step_Definitions.clicking_the_Buy_Online_button()"
 });
 formatter.result({
-  "duration": 481222400,
+  "duration": 518971000,
   "status": "passed"
 });
 formatter.match({
   "location": "NPW_Step_Definitions.the_User_is_redirected_to_the_EasiPlus_Application()"
 });
 formatter.result({
-  "duration": 2979845600,
-  "status": "passed"
+  "duration": 21279926500,
+  "error_message": "java.lang.AssertionError: Failed to wait for EPQ Keep the following Handy Header.\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat DVT_BDD.BDD_Step_Definitions.NPW_Step_Definitions.checkTestResult(NPW_Step_Definitions.java:394)\r\n\tat DVT_BDD.BDD_Step_Definitions.NPW_Step_Definitions.the_User_is_redirected_to_the_EasiPlus_Application(NPW_Step_Definitions.java:172)\r\n\tat ✽.Then the User is redirected to the EasiPlus Application(Unit-Tests/DVT_BDD/Features/BDD_Feature_Files/NPW_EasiPlus_App.feature:16)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "NPW_Step_Definitions.click_continue_button()"
 });
 formatter.result({
-  "duration": 458105300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "NPW_Step_Definitions.epa_Personal_Details_Page_Loads()"
 });
 formatter.result({
-  "duration": 911418200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -714,8 +713,7 @@ formatter.match({
   "location": "NPW_Step_Definitions.select_a_Title_for_Personal_Details(String)"
 });
 formatter.result({
-  "duration": 669171600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -727,8 +725,7 @@ formatter.match({
   "location": "NPW_Step_Definitions.enter_FirstName_for_Personal_Details(String)"
 });
 formatter.result({
-  "duration": 723473600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -740,8 +737,7 @@ formatter.match({
   "location": "NPW_Step_Definitions.enter_Surname_for_Personal_Details(String)"
 });
 formatter.result({
-  "duration": 790635500,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -753,8 +749,7 @@ formatter.match({
   "location": "NPW_Step_Definitions.enter_ID_for_Personal_Details(String)"
 });
 formatter.result({
-  "duration": 767039100,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -766,8 +761,7 @@ formatter.match({
   "location": "NPW_Step_Definitions.enter_ContactNo_for_Personal_Details(String)"
 });
 formatter.result({
-  "duration": 700668700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -779,22 +773,19 @@ formatter.match({
   "location": "NPW_Step_Definitions.enter_Email_for_Personal_Details(String)"
 });
 formatter.result({
-  "duration": 849350500,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "NPW_Step_Definitions.click_continue_button()"
 });
 formatter.result({
-  "duration": 427331300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "NPW_Step_Definitions.epa_Residential_Address_Page_Loads()"
 });
 formatter.result({
-  "duration": 916954400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -806,8 +797,7 @@ formatter.match({
   "location": "NPW_Step_Definitions.enter_Street_Number_for_Residential_Address(String)"
 });
 formatter.result({
-  "duration": 655186200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -819,8 +809,7 @@ formatter.match({
   "location": "NPW_Step_Definitions.enter_Street_Name_for_Residential_Address(String)"
 });
 formatter.result({
-  "duration": 700090900,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -832,8 +821,7 @@ formatter.match({
   "location": "NPW_Step_Definitions.enter_Suburb_for_Residential_Address(String)"
 });
 formatter.result({
-  "duration": 705862500,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -845,8 +833,7 @@ formatter.match({
   "location": "NPW_Step_Definitions.enter_City_for_Residential_Address(String)"
 });
 formatter.result({
-  "duration": 700639600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -858,22 +845,19 @@ formatter.match({
   "location": "NPW_Step_Definitions.enter_PostalCode_for_Residential_Address(String)"
 });
 formatter.result({
-  "duration": 752853500,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "NPW_Step_Definitions.click_continue_button()"
 });
 formatter.result({
-  "duration": 551385600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "NPW_Step_Definitions.family_Member_Details_Page_Load()"
 });
 formatter.result({
-  "duration": 1152468300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -901,23 +885,19 @@ formatter.match({
   "location": "NPW_Step_Definitions.add_a_Parent_Dependant(String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 3292393100,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "NPW_Step_Definitions.click_continue_button()"
 });
 formatter.result({
-  "duration": 441126600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "NPW_Step_Definitions.epa_Beneficiary_Details_Page_Loads()"
 });
 formatter.result({
-  "duration": 21127782800,
-  "error_message": "java.lang.AssertionError: Failed to wait for EPQ Beneficiary Details.\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat DVT_BDD.BDD_Step_Definitions.NPW_Step_Definitions.checkTestResult(NPW_Step_Definitions.java:394)\r\n\tat DVT_BDD.BDD_Step_Definitions.NPW_Step_Definitions.epa_Beneficiary_Details_Page_Loads(NPW_Step_Definitions.java:274)\r\n\tat ✽.When EPA Beneficiary Details Page Loads(Unit-Tests/DVT_BDD/Features/BDD_Feature_Files/NPW_EasiPlus_App.feature:36)\r\n",
-  "status": "failed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1014,11 +994,11 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 728660200,
+  "duration": 695927300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 69900,
+  "duration": 47400,
   "status": "passed"
 });
 });

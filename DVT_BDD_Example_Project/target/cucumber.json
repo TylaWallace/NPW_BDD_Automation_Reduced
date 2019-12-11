@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 7275120400,
+              "duration": 7439997600,
               "status": "passed"
             },
             "match": {
@@ -15,7 +15,7 @@
           },
           {
             "result": {
-              "duration": 9566600,
+              "duration": 8879500,
               "status": "passed"
             },
             "match": {
@@ -30,7 +30,7 @@
         "after": [
           {
             "result": {
-              "duration": 728660200,
+              "duration": 695927300,
               "status": "passed"
             },
             "match": {
@@ -39,7 +39,7 @@
           },
           {
             "result": {
-              "duration": 69900,
+              "duration": 47400,
               "status": "passed"
             },
             "match": {
@@ -52,7 +52,7 @@
         "steps": [
           {
             "result": {
-              "duration": 20704088900,
+              "duration": 16672532500,
               "status": "passed"
             },
             "line": 4,
@@ -64,7 +64,7 @@
           },
           {
             "result": {
-              "duration": 349716400,
+              "duration": 382121700,
               "status": "passed"
             },
             "line": 5,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 938218200,
+              "duration": 935942500,
               "status": "passed"
             },
             "line": 6,
@@ -88,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 353479200,
+              "duration": 349695200,
               "status": "passed"
             },
             "line": 7,
@@ -100,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 700303200,
+              "duration": 616020100,
               "status": "passed"
             },
             "line": 8,
@@ -112,7 +112,7 @@
           },
           {
             "result": {
-              "duration": 862104400,
+              "duration": 923398500,
               "status": "passed"
             },
             "line": 9,
@@ -138,7 +138,7 @@
           },
           {
             "result": {
-              "duration": 1438296000,
+              "duration": 1475605300,
               "status": "passed"
             },
             "line": 10,
@@ -159,7 +159,7 @@
           },
           {
             "result": {
-              "duration": 844616300,
+              "duration": 715812300,
               "status": "passed"
             },
             "line": 11,
@@ -171,7 +171,7 @@
           },
           {
             "result": {
-              "duration": 1447261900,
+              "duration": 1494412800,
               "status": "passed"
             },
             "line": 12,
@@ -192,7 +192,7 @@
           },
           {
             "result": {
-              "duration": 498134500,
+              "duration": 495472200,
               "status": "passed"
             },
             "line": 13,
@@ -204,7 +204,7 @@
           },
           {
             "result": {
-              "duration": 16000,
+              "duration": 13200,
               "status": "passed"
             },
             "line": 14,
@@ -216,7 +216,7 @@
           },
           {
             "result": {
-              "duration": 481222400,
+              "duration": 518971000,
               "status": "passed"
             },
             "line": 15,
@@ -228,8 +228,9 @@
           },
           {
             "result": {
-              "duration": 2979845600,
-              "status": "passed"
+              "duration": 21279926500,
+              "error_message": "java.lang.AssertionError: Failed to wait for EPQ Keep the following Handy Header.\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat DVT_BDD.BDD_Step_Definitions.NPW_Step_Definitions.checkTestResult(NPW_Step_Definitions.java:394)\r\n\tat DVT_BDD.BDD_Step_Definitions.NPW_Step_Definitions.the_User_is_redirected_to_the_EasiPlus_Application(NPW_Step_Definitions.java:172)\r\n\tat ✽.Then the User is redirected to the EasiPlus Application(Unit-Tests/DVT_BDD/Features/BDD_Feature_Files/NPW_EasiPlus_App.feature:16)\r\n",
+              "status": "failed"
             },
             "line": 16,
             "name": "the User is redirected to the EasiPlus Application",
@@ -240,8 +241,7 @@
           },
           {
             "result": {
-              "duration": 458105300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 17,
             "name": "click continue button",
@@ -252,8 +252,7 @@
           },
           {
             "result": {
-              "duration": 911418200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "EPA Personal Details Page Loads",
@@ -264,8 +263,7 @@
           },
           {
             "result": {
-              "duration": 669171600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 19,
             "name": "Select a Title \"Mrs\" for Personal Details",
@@ -285,8 +283,7 @@
           },
           {
             "result": {
-              "duration": 723473600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 20,
             "name": "enter FirstName \"Testy-Lee!\" for Personal Details",
@@ -306,8 +303,7 @@
           },
           {
             "result": {
-              "duration": 790635500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 21,
             "name": "enter Surname \"NpwA\u0027uto\" for Personal Details",
@@ -327,8 +323,7 @@
           },
           {
             "result": {
-              "duration": 767039100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 22,
             "name": "enter ID \"9206094800087\" for Personal Details",
@@ -348,8 +343,7 @@
           },
           {
             "result": {
-              "duration": 700668700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 23,
             "name": "enter ContactNo \"0711110011\" for Personal Details",
@@ -369,8 +363,7 @@
           },
           {
             "result": {
-              "duration": 849350500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 24,
             "name": "enter Email \"TestyLeeIsATest@testemail.com\" for Personal Details",
@@ -390,8 +383,7 @@
           },
           {
             "result": {
-              "duration": 427331300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 25,
             "name": "click continue button",
@@ -402,8 +394,7 @@
           },
           {
             "result": {
-              "duration": 916954400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 26,
             "name": "EPA Residential Address Page Loads",
@@ -414,8 +405,7 @@
           },
           {
             "result": {
-              "duration": 655186200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 27,
             "name": "enter Street Number \"14\" for Residential Address",
@@ -435,8 +425,7 @@
           },
           {
             "result": {
-              "duration": 700090900,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 28,
             "name": "enter Street Name \"Test Street\" for Residential Address",
@@ -456,8 +445,7 @@
           },
           {
             "result": {
-              "duration": 705862500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 29,
             "name": "enter Suburb \"Bronx\" for Residential Address",
@@ -477,8 +465,7 @@
           },
           {
             "result": {
-              "duration": 700639600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 30,
             "name": "enter City \"Cape Town\" for Residential Address",
@@ -498,8 +485,7 @@
           },
           {
             "result": {
-              "duration": 752853500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 31,
             "name": "enter PostalCode \"7800\" for Residential Address",
@@ -519,8 +505,7 @@
           },
           {
             "result": {
-              "duration": 551385600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 32,
             "name": "click continue button",
@@ -531,8 +516,7 @@
           },
           {
             "result": {
-              "duration": 1152468300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 33,
             "name": "Family Member Details Page Load",
@@ -543,8 +527,7 @@
           },
           {
             "result": {
-              "duration": 3292393100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 34,
             "name": "Add a Parent Dependant \"Mother\" \"Mrs\" \"Mama-Testy!\" \"NpwA\u0027uto\" \"09/06/1974\"",
@@ -584,8 +567,7 @@
           },
           {
             "result": {
-              "duration": 441126600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 35,
             "name": "click continue button",
@@ -596,9 +578,7 @@
           },
           {
             "result": {
-              "duration": 21127782800,
-              "error_message": "java.lang.AssertionError: Failed to wait for EPQ Beneficiary Details.\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat DVT_BDD.BDD_Step_Definitions.NPW_Step_Definitions.checkTestResult(NPW_Step_Definitions.java:394)\r\n\tat DVT_BDD.BDD_Step_Definitions.NPW_Step_Definitions.epa_Beneficiary_Details_Page_Loads(NPW_Step_Definitions.java:274)\r\n\tat ✽.When EPA Beneficiary Details Page Loads(Unit-Tests/DVT_BDD/Features/BDD_Feature_Files/NPW_EasiPlus_App.feature:36)\r\n",
-              "status": "failed"
+              "status": "skipped"
             },
             "line": 36,
             "name": "EPA Beneficiary Details Page Loads",
