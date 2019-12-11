@@ -6,7 +6,16 @@
         "before": [
           {
             "result": {
-              "duration": 7439997600,
+              "duration": 6444519900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "URL_Step_Definitions.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 819328500,
               "status": "passed"
             },
             "match": {
@@ -15,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 8879500,
+              "duration": 9036500,
               "status": "passed"
             },
             "match": {
@@ -23,14 +32,23 @@
             }
           }
         ],
-        "line": 47,
-        "name": "1- Navigate and Validate EasiPlus Quote",
+        "line": 10,
+        "name": "1- Navigate to a URL and Validate all the links present",
         "description": "",
-        "id": "easiplus-quote;1--navigate-and-validate-easiplus-quote;;2",
+        "id": "url-testing-feature;1--navigate-to-a-url-and-validate-all-the-links-present;;2",
         "after": [
           {
             "result": {
-              "duration": 695927300,
+              "duration": 696745800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "URL_Step_Definitions.After()"
+            }
+          },
+          {
+            "result": {
+              "duration": 88100,
               "status": "passed"
             },
             "match": {
@@ -39,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 47400,
+              "duration": 94700,
               "status": "passed"
             },
             "match": {
@@ -52,693 +70,171 @@
         "steps": [
           {
             "result": {
-              "duration": 16672532500,
+              "duration": 4362468300,
               "status": "passed"
             },
             "line": 4,
-            "name": "I have navigated to EasiPlus Quote PreDEV",
+            "name": "I have navigated to \"https://www.toolsqa.com/\"",
             "match": {
-              "location": "NPW_Step_Definitions.i_have_navigated_to_EasiPlus_Quote_PreDEV()"
+              "arguments": [
+                {
+                  "val": "https://www.toolsqa.com/",
+                  "offset": 21
+                }
+              ],
+              "location": "URL_Step_Definitions.i_have_navigated_to(String)"
             },
+            "matchedColumns": [
+              0
+            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 382121700,
+              "duration": 477844900,
               "status": "passed"
             },
             "line": 5,
-            "name": "EasiPlus Quote PreDEV Page loads",
+            "name": "get the list of the links present on the page.",
             "match": {
-              "location": "NPW_Step_Definitions.easiplus_Quote_PreDEV_Page_loads()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 935942500,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "click Select Cover Me and My Direct Family",
-            "match": {
-              "location": "NPW_Step_Definitions.click_Select_Cover_Me_and_My_Direct_Family()"
+              "location": "URL_Step_Definitions.get_the_list_of_the_links_present_on_the_page()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 349695200,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Who do you want to cover Header Loads",
-            "match": {
-              "location": "NPW_Step_Definitions.who_do_you_want_to_cover_Header_Loads()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 616020100,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "select Myself from the Select Who You Want to Cover dropdown",
-            "match": {
-              "location": "NPW_Step_Definitions.select_Myself_from_the_Select_Who_You_Want_to_Cover_dropdown()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 923398500,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "entering a \"27\" and  selecting the \"R25000\" from the slider",
-            "match": {
-              "arguments": [
-                {
-                  "val": "27",
-                  "offset": 12
-                },
-                {
-                  "val": "R25000",
-                  "offset": 36
-                }
-              ],
-              "location": "NPW_Step_Definitions.entering_a_and_selecting_the_from_the_slider(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1475605300,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "\"R 80\" amount is calculated",
-            "match": {
-              "arguments": [
-                {
-                  "val": "R 80",
-                  "offset": 1
-                }
-              ],
-              "location": "NPW_Step_Definitions.amount_is_calculated(String)"
-            },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 715812300,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "clicking Add To Cover",
-            "match": {
-              "location": "NPW_Step_Definitions.clicking_Add_To_Cover()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1494412800,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "\"R80\" is added to Quote Summary",
-            "match": {
-              "arguments": [
-                {
-                  "val": "R80",
-                  "offset": 1
-                }
-              ],
-              "location": "NPW_Step_Definitions.is_added_to_Quote_Summary(String)"
-            },
-            "matchedColumns": [
-              4
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 495472200,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "clicking the Dropdown icon",
-            "match": {
-              "location": "NPW_Step_Definitions.clicking_the_Dropdown_icon()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 13200,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "the Quote Summary is minimized or maximized",
-            "match": {
-              "location": "NPW_Step_Definitions.the_Quote_Summary_is_minimized_or_maximized()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 518971000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "clicking the Buy Online button",
-            "match": {
-              "location": "NPW_Step_Definitions.clicking_the_Buy_Online_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 21279926500,
-              "error_message": "java.lang.AssertionError: Failed to wait for EPQ Keep the following Handy Header.\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat DVT_BDD.BDD_Step_Definitions.NPW_Step_Definitions.checkTestResult(NPW_Step_Definitions.java:394)\r\n\tat DVT_BDD.BDD_Step_Definitions.NPW_Step_Definitions.the_User_is_redirected_to_the_EasiPlus_Application(NPW_Step_Definitions.java:172)\r\n\tat ✽.Then the User is redirected to the EasiPlus Application(Unit-Tests/DVT_BDD/Features/BDD_Feature_Files/NPW_EasiPlus_App.feature:16)\r\n",
+              "duration": 320923300,
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d78.0.3904.108)\n  (Driver info: chromedriver\u003d2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform\u003dWindows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.6.0\u0027, revision: \u00276fbf3ec767\u0027, time: \u00272017-09-27T16:15:26.402Z\u0027\nSystem info: host: \u0027GTC-100684\u0027, ip: \u0027192.168.18.142\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, platformName\u003dXP, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003d, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir\u003dC:\\Users\\twallace\\AppData\\Local\\Temp\\scoped_dir8784_17138}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, unhandledPromptBehavior\u003d, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d78.0.3904.108, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 53d1e0bf60054ba37636789def2ca77c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat KeywordDrivenTestFramework.Testing.TestClasses.URL_Step_PreDEV.then_click_on_each_link_and_verify_the_landing_page(URL_Step_PreDEV.java:75)\r\n\tat DVT_BDD.BDD_Step_Definitions.URL_Step_Definitions.click_on_each_link_and_verify_the_landing_page(URL_Step_Definitions.java:77)\r\n\tat ✽.Then click on each link and verify the landing page.(Unit-Tests/DVT_BDD/Features/BDD_Feature_Files/URLTest.feature:6)\r\n",
               "status": "failed"
             },
-            "line": 16,
-            "name": "the User is redirected to the EasiPlus Application",
+            "line": 6,
+            "name": "click on each link and verify the landing page.",
             "match": {
-              "location": "NPW_Step_Definitions.the_User_is_redirected_to_the_EasiPlus_Application()"
+              "location": "URL_Step_Definitions.click_on_each_link_and_verify_the_landing_page()"
             },
             "keyword": "Then "
-          },
+          }
+        ]
+      },
+      {
+        "before": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 5459140900,
+              "status": "passed"
             },
-            "line": 17,
-            "name": "click continue button",
             "match": {
-              "location": "NPW_Step_Definitions.click_continue_button()"
-            },
-            "keyword": "Then "
+              "location": "URL_Step_Definitions.before(Scenario)"
+            }
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 133400,
+              "status": "passed"
             },
-            "line": 18,
-            "name": "EPA Personal Details Page Loads",
             "match": {
-              "location": "NPW_Step_Definitions.epa_Personal_Details_Page_Loads()"
-            },
-            "keyword": "When "
+              "location": "BDD_Step_Definitions.before(Scenario)"
+            }
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 161100,
+              "status": "passed"
             },
-            "line": 19,
-            "name": "Select a Title \"Mrs\" for Personal Details",
+            "match": {
+              "location": "NPW_Step_Definitions.before(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "1- Navigate to a URL and Validate all the links present",
+        "description": "",
+        "id": "url-testing-feature;1--navigate-to-a-url-and-validate-all-the-links-present;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 719589200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "URL_Step_Definitions.After()"
+            }
+          },
+          {
+            "result": {
+              "duration": 65700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BDD_Step_Definitions.After()"
+            }
+          },
+          {
+            "result": {
+              "duration": 32900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "NPW_Step_Definitions.After()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10888947700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have navigated to \"https://www.phptravels.net/index.php\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Mrs",
-                  "offset": 16
-                }
-              ],
-              "location": "NPW_Step_Definitions.select_a_Title_for_Personal_Details(String)"
-            },
-            "matchedColumns": [
-              5
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 20,
-            "name": "enter FirstName \"Testy-Lee!\" for Personal Details",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Testy-Lee!",
-                  "offset": 17
-                }
-              ],
-              "location": "NPW_Step_Definitions.enter_FirstName_for_Personal_Details(String)"
-            },
-            "matchedColumns": [
-              6
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 21,
-            "name": "enter Surname \"NpwA\u0027uto\" for Personal Details",
-            "match": {
-              "arguments": [
-                {
-                  "val": "NpwA\u0027uto",
-                  "offset": 15
-                }
-              ],
-              "location": "NPW_Step_Definitions.enter_Surname_for_Personal_Details(String)"
-            },
-            "matchedColumns": [
-              7
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 22,
-            "name": "enter ID \"9206094800087\" for Personal Details",
-            "match": {
-              "arguments": [
-                {
-                  "val": "9206094800087",
-                  "offset": 10
-                }
-              ],
-              "location": "NPW_Step_Definitions.enter_ID_for_Personal_Details(String)"
-            },
-            "matchedColumns": [
-              8
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 23,
-            "name": "enter ContactNo \"0711110011\" for Personal Details",
-            "match": {
-              "arguments": [
-                {
-                  "val": "0711110011",
-                  "offset": 17
-                }
-              ],
-              "location": "NPW_Step_Definitions.enter_ContactNo_for_Personal_Details(String)"
-            },
-            "matchedColumns": [
-              9
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 24,
-            "name": "enter Email \"TestyLeeIsATest@testemail.com\" for Personal Details",
-            "match": {
-              "arguments": [
-                {
-                  "val": "TestyLeeIsATest@testemail.com",
-                  "offset": 13
-                }
-              ],
-              "location": "NPW_Step_Definitions.enter_Email_for_Personal_Details(String)"
-            },
-            "matchedColumns": [
-              10
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 25,
-            "name": "click continue button",
-            "match": {
-              "location": "NPW_Step_Definitions.click_continue_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 26,
-            "name": "EPA Residential Address Page Loads",
-            "match": {
-              "location": "NPW_Step_Definitions.epa_Residential_Address_Page_Loads()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 27,
-            "name": "enter Street Number \"14\" for Residential Address",
-            "match": {
-              "arguments": [
-                {
-                  "val": "14",
+                  "val": "https://www.phptravels.net/index.php",
                   "offset": 21
                 }
               ],
-              "location": "NPW_Step_Definitions.enter_Street_Number_for_Residential_Address(String)"
+              "location": "URL_Step_Definitions.i_have_navigated_to(String)"
             },
             "matchedColumns": [
-              11
+              0
             ],
-            "keyword": "Then "
+            "keyword": "Given "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 738647100,
+              "status": "passed"
             },
-            "line": 28,
-            "name": "enter Street Name \"Test Street\" for Residential Address",
+            "line": 5,
+            "name": "get the list of the links present on the page.",
             "match": {
-              "arguments": [
-                {
-                  "val": "Test Street",
-                  "offset": 19
-                }
-              ],
-              "location": "NPW_Step_Definitions.enter_Street_Name_for_Residential_Address(String)"
-            },
-            "matchedColumns": [
-              12
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 29,
-            "name": "enter Suburb \"Bronx\" for Residential Address",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Bronx",
-                  "offset": 14
-                }
-              ],
-              "location": "NPW_Step_Definitions.enter_Suburb_for_Residential_Address(String)"
-            },
-            "matchedColumns": [
-              13
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 30,
-            "name": "enter City \"Cape Town\" for Residential Address",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Cape Town",
-                  "offset": 12
-                }
-              ],
-              "location": "NPW_Step_Definitions.enter_City_for_Residential_Address(String)"
-            },
-            "matchedColumns": [
-              14
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 31,
-            "name": "enter PostalCode \"7800\" for Residential Address",
-            "match": {
-              "arguments": [
-                {
-                  "val": "7800",
-                  "offset": 18
-                }
-              ],
-              "location": "NPW_Step_Definitions.enter_PostalCode_for_Residential_Address(String)"
-            },
-            "matchedColumns": [
-              15
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 32,
-            "name": "click continue button",
-            "match": {
-              "location": "NPW_Step_Definitions.click_continue_button()"
+              "location": "URL_Step_Definitions.get_the_list_of_the_links_present_on_the_page()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 329568900,
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d78.0.3904.108)\n  (Driver info: chromedriver\u003d2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform\u003dWindows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.6.0\u0027, revision: \u00276fbf3ec767\u0027, time: \u00272017-09-27T16:15:26.402Z\u0027\nSystem info: host: \u0027GTC-100684\u0027, ip: \u0027192.168.18.142\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, platformName\u003dXP, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003d, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir\u003dC:\\Users\\twallace\\AppData\\Local\\Temp\\scoped_dir8740_9933}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, unhandledPromptBehavior\u003d, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d78.0.3904.108, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 4460476d4a7c850d4e1903c427f81ae0\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat KeywordDrivenTestFramework.Testing.TestClasses.URL_Step_PreDEV.then_click_on_each_link_and_verify_the_landing_page(URL_Step_PreDEV.java:75)\r\n\tat DVT_BDD.BDD_Step_Definitions.URL_Step_Definitions.click_on_each_link_and_verify_the_landing_page(URL_Step_Definitions.java:77)\r\n\tat ✽.Then click on each link and verify the landing page.(Unit-Tests/DVT_BDD/Features/BDD_Feature_Files/URLTest.feature:6)\r\n",
+              "status": "failed"
             },
-            "line": 33,
-            "name": "Family Member Details Page Load",
+            "line": 6,
+            "name": "click on each link and verify the landing page.",
             "match": {
-              "location": "NPW_Step_Definitions.family_Member_Details_Page_Load()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 34,
-            "name": "Add a Parent Dependant \"Mother\" \"Mrs\" \"Mama-Testy!\" \"NpwA\u0027uto\" \"09/06/1974\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Mother",
-                  "offset": 24
-                },
-                {
-                  "val": "Mrs",
-                  "offset": 33
-                },
-                {
-                  "val": "Mama-Testy!",
-                  "offset": 39
-                },
-                {
-                  "val": "NpwA\u0027uto",
-                  "offset": 53
-                },
-                {
-                  "val": "09/06/1974",
-                  "offset": 64
-                }
-              ],
-              "location": "NPW_Step_Definitions.add_a_Parent_Dependant(String,String,String,String,String)"
-            },
-            "matchedColumns": [
-              16,
-              17,
-              18,
-              5,
-              7
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 35,
-            "name": "click continue button",
-            "match": {
-              "location": "NPW_Step_Definitions.click_continue_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 36,
-            "name": "EPA Beneficiary Details Page Loads",
-            "match": {
-              "location": "NPW_Step_Definitions.epa_Beneficiary_Details_Page_Loads()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 37,
-            "name": "Add a Beneficiary \"Mr\" \"Testy-Ben!\" \"NpwA\u0027uto\" \"09/06/1998\" \"0744254418\" \"TestyBensTestEmail@testemailben.com\" \"Brother\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Mr",
-                  "offset": 19
-                },
-                {
-                  "val": "Testy-Ben!",
-                  "offset": 24
-                },
-                {
-                  "val": "NpwA\u0027uto",
-                  "offset": 37
-                },
-                {
-                  "val": "09/06/1998",
-                  "offset": 48
-                },
-                {
-                  "val": "0744254418",
-                  "offset": 61
-                },
-                {
-                  "val": "TestyBensTestEmail@testemailben.com",
-                  "offset": 74
-                },
-                {
-                  "val": "Brother",
-                  "offset": 112
-                }
-              ],
-              "location": "NPW_Step_Definitions.add_a_Beneficiary(String,String,String,String,String,String,String)"
-            },
-            "matchedColumns": [
-              19,
-              20,
-              21,
-              22,
-              7,
-              23,
-              24
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 38,
-            "name": "click continue button",
-            "match": {
-              "location": "NPW_Step_Definitions.click_continue_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 39,
-            "name": "Beneficiary Split Page Loads",
-            "match": {
-              "location": "NPW_Step_Definitions.beneficiary_Split_Page_Loads()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 40,
-            "name": "click continue button",
-            "match": {
-              "location": "NPW_Step_Definitions.click_continue_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 41,
-            "name": "Payment Details Page Loads",
-            "match": {
-              "location": "NPW_Step_Definitions.payment_Details_Page_Loads()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 42,
-            "name": "Add Payment Details \"1st\" \"FNB\" \"1234567890\" \"Cheque Account\" \"254005\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "1st",
-                  "offset": 21
-                },
-                {
-                  "val": "FNB",
-                  "offset": 27
-                },
-                {
-                  "val": "1234567890",
-                  "offset": 33
-                },
-                {
-                  "val": "Cheque Account",
-                  "offset": 46
-                },
-                {
-                  "val": "254005",
-                  "offset": 63
-                }
-              ],
-              "location": "NPW_Step_Definitions.add_Payment_Details(String,String,String,String,String)"
-            },
-            "matchedColumns": [
-              25,
-              26,
-              27,
-              28,
-              29
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 43,
-            "name": "click continue button",
-            "match": {
-              "location": "NPW_Step_Definitions.click_continue_button()"
+              "location": "URL_Step_Definitions.click_on_each_link_and_verify_the_landing_page()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "EasiPlus Quote",
+    "name": "URL Testing Feature",
     "description": "",
-    "id": "easiplus-quote",
+    "id": "url-testing-feature",
     "keyword": "Feature",
-    "uri": "Unit-Tests/DVT_BDD/Features/BDD_Feature_Files/NPW_EasiPlus_App.feature"
+    "uri": "Unit-Tests/DVT_BDD/Features/BDD_Feature_Files/URLTest.feature"
   }
 ]

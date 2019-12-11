@@ -35,7 +35,7 @@ import org.junit.runner.RunWith;
 (        plugin = {"usage","json:target/cucumber.json","html:target/cucumber", "com.cucumber.listener.ExtentCucumberFormatter:"},
         glue ={"DVT_BDD.BDD_Step_Definitions"},
 
-        features ={"Unit-Tests\\DVT_BDD\\Features\\BDD_Feature_Files\\NPW_EasiPlus_App.feature"},
+        features ={"Unit-Tests\\DVT_BDD\\Features\\BDD_Feature_Files\\URLTest.feature"},
 
         dryRun = false,
         monochrome = false,
