@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- report theme -->
+        <!-- standard, dark -->
+        <theme>standard</theme>
+    
+        <!-- document encoding -->
+        <!-- defaults to UTF-8 -->
+        <encoding>UTF-8</encoding>
+        
+        <!-- protocol for script and stylesheets -->
+        <!-- defaults to https -->
+        <protocol>https</protocol>
+        
+        <!-- title of the document -->
+        <documentTitle>DVT - GTC | UTA-H Test Report</documentTitle>
+        
+        <!-- report name - displayed at top-nav -->
+        <reportName>DVT - GTC | UTA-H Test Report</reportName>
+        
+        <!-- location of charts in the test view -->
+        <!-- top, bottom -->
+        <testViewChartLocation>bottom</testViewChartLocation>
+		<!-- global date format override -->
+		<!-- defaults to yyyy-MM-dd -->
+		<dateFormat>yyyy-MM-dd</dateFormat>
+		
+		<!-- global time format override -->
+		<!-- defaults to HH:mm:ss -->
+		<timeFormat>HH:mm:ss</timeFormat>
+        
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+                    var element = document.evaluate( '//div[contains(text(),\'Time Taken\')]/div' ,document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null ).singleNodeValue;
+					
+					
+					if (element != null) 
+					{
+						var rawText = element.textContent;
+						if (rawText.indexOf(":") < 0) 
+						{
+					
+							rawText = rawText.replace(/,/g, '');
+							rawText = rawText.replace(/ms/g, '');
+							var sss = Number(rawText);
+							
+							var hh = 0;
+							var mm = 0;
+							var ss = 0;
+							
+							if (sss > 1000) 
+							{
+								while(sss > 1000)
+								{
+									ss += 1;
+									sss -= 1000;
+									
+								}
+							}
+							
+							if (ss > 60) 
+							{
+								while(ss > 60)
+								{
+									mm += 1;
+									ss -= 60;
+									
+								}
+							}
+							
+							if (mm > 60) 
+							{
+								while(mm > 60)
+								{
+									hh += 1;
+									mm -= 60;
+									
+								}
+							}						
+							
+							
+							// If you were building a timestamp instead of a duration, you would uncomment the following line to get 12-hour (not 24) time
+							// if (hh > 12) {hh = hh % 12;}
+							// These lines ensure you have two-digits
+							if (hh < 10) {hh = "0"+hh;}
+							if (mm < 10) {mm = "0"+mm;}
+							if (ss < 10) {ss = "0"+ss;}
+							// This formats your string to HH:MM:SS
+							var t = hh+":"+mm+":"+ss +":"+sss;
+							element.textContent = t;
+						}
+					}
+                });
+            ]]>
+        </scripts>
+        
+        <!-- custom styles -->
+        <styles>
+            <![CDATA[
+                .pre {
+            word-wrap: break-word;
+			white-space: unset;
+            }
+            ]]>
+        </styles>
+    </configuration>
+</extentreports>

@@ -1,0 +1,55 @@
+<project name="UTAHExecuteTest" basedir="." default="test">
+	<property name="dest.dir" value="build" />
+	<property name="dest.dir.classes" value="${dest.dir}/classes" />
+	<property name="dest.dir.lib" value="${dest.dir}/lib" />
+	<property name="home" value="." />
+        
+	<path id="build.class.path">
+                <fileset dir="${home}/Dependencies/Selenium"/>
+		<fileset dir="${home}/Dependencies">
+		<include name="**/*.jar" />
+		</fileset>
+		<pathelement location="${dest.dir.classes}" />
+	</path>
+
+	<path id="test.class.path">
+		<fileset dir="${dest.dir}/classes">
+		<include name="*.class" />
+		</fileset>
+		<pathelement location="${dest.dir.classes}" />
+	</path>
+
+	<target name="clean">
+		<delete dir="${dest.dir}" />
+	</target>
+
+	<target name="prepare">
+		<mkdir dir="${dest.dir}" />
+		<mkdir dir="${dest.dir.classes}" />
+	</target>
+
+	<target name="compile" depends="clean,prepare">
+		<javac srcdir="Source" destdir="${dest.dir.classes}">
+			<classpath refid="build.class.path" />
+		</javac>
+		<javac srcdir="Unit-Tests" destdir="${dest.dir.classes}">
+			<classpath refid="build.class.path" />
+		</javac>
+	</target>
+
+	<target name="run" depends="compile"/>	
+	
+	<target name="test" depends="compile">
+		<junit fork="Yes" showoutput="yes" haltonfailure="false" haltonerror="false" errorproperty="test.error" failureproperty="test.error">
+		<sysproperty key="myTest" value="${myTest}"/>	  
+                <sysproperty key="Browser" value="${Browser}"/>
+                <sysproperty key="TestPack" value="${TestPack}"/>
+                <sysproperty key="Environment" value="${Environment}"/>
+		<classpath refid="test.class.path" />
+		<classpath refid="build.class.path" />
+		<formatter type="xml" usefile="true" />
+		<test name="${myTest}" outfile ="report"/>
+		</junit>	
+	</target>
+
+</project>

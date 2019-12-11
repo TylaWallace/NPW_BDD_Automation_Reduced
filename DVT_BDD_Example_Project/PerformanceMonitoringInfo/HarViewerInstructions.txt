@@ -1,0 +1,10 @@
+LocalHost Setup: 
+
+1)Install RubyInstaller for windows: 
+https://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.3.3.exe
+
+2)Run the following command in CMDL
+
+gem install har
+
+3) Once installed, run Har from CMD followed by the path to the generated .har file path

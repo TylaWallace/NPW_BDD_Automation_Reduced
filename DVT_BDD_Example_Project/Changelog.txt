@@ -1,0 +1,28 @@
+Sponsor: DVT SQA Cape Town
+Project: KISSAT Java Base (TestOps)
+First Release: March 2015
+Creator: Micah de Villiers (mdevilliers@dvt.co.za)
+Coordinator: Nicolaas Kotze
+
+================================================================================== 
+Getting Support
+================================================================================== 
+
+TaskBoard URL:
+Timesheet Code:
+Source Code Repository: https://bitbucket.org/ScorpiusIV/kissat-java-base
+User Guide: 
+
+================================================================================== 
+List all issues fixes and new features (1.0.1)
+================================================================================== 
+Implemented the following functionality:
+[1]: Added RSA ID Generator Functionality 
+
+
+================================================================================== 
+List all issues fixes and new features (1.0.2)
+================================================================================== 
+Implemented the following functionality:
+[1]: Added Sikuli-tool Functionality 
+[2]: Scripted a dummy test to display the Sikuli-tool

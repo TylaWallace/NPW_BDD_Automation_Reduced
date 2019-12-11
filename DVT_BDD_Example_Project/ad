@@ -1,0 +1,11 @@
+[33m48e15b4[m HEAD@{0}: pull origin master: Fast-forward
+[33m69f4f74[m HEAD@{1}: commit: [Maintenance] Replaced Page Object class
+[33mc95a10f[m HEAD@{2}: commit (merge): Merge branch 'master' of https://bitbucket.org/DVT_Test_Automation/mip_hollard_keyworddriventestautomation_dvt
+[33m49ed6eb[m HEAD@{3}: commit: no message
+[33m1acad3f[m HEAD@{4}: commit: [Dev] Added multiple Apportionment editing for the Beneficiary role. Changed "Scenario 1" keyword to "Add Contract". Added "setDateFormat" function to the Selenium Driver Utility.
+[33m3e583e7[m HEAD@{5}: commit: [Dev] Changed "Create Contract" keyword to "Add Contract"
+[33m3cab5c3[m HEAD@{6}: commit: [Dev] Resolved page object conflicts
+[33m527bcfa[m HEAD@{7}: commit (merge): Merge branch 'master' of https://bitbucket.org/DVT_Test_Automation/mip_hollard_keyworddriventestautomation_dvt
+[33md4015b3[m HEAD@{8}: commit: [Dev] Added Policy Payer to AddRole test class
+[33m0f4f4a3[m HEAD@{9}: commit: [Dev] Added AddRole test class, added case for AddRole keyword
+[33m3e98015[m HEAD@{10}: clone: from https://prabirsooraj@bitbucket.org/DVT_Test_Automation/mip_hollard_keyworddriventestautomation_dvt.git
