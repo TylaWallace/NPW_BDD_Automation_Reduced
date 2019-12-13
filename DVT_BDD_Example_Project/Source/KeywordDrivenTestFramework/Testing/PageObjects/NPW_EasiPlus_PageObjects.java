@@ -363,6 +363,16 @@ public class NPW_EasiPlus_PageObjects
         return "//span[contains(text(),'Branch Code')]//..//input";
     }
     
+    public static String EPQ_Family_Details_Delete_Icon()
+    {
+        return "//om-member-details-accordion[@label='Me']//div//div[@class='right']//span[@slot]//om-overlay-opener//div//om-icon//span";
+    }
+    
+    public static String EPQ_Family_Details_Delete_Confirm_Button()
+    {
+        return "//button//span[contains(text(),'DELETE')]";
+    }
+    
     
     
     public static String EPQ_GetQuote_Button()

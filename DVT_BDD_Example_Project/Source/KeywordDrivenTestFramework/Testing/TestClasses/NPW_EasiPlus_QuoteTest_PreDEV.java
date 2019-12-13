@@ -1206,6 +1206,35 @@ public class NPW_EasiPlus_QuoteTest_PreDEV extends BaseClass
         return null;
     
     }
+    
+    public String remove_My_details()
+    {
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_Family_Details_Delete_Icon()))
+        {
+            return "Failed to wait for EPQ Family Details Delete Icon.";
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_Family_Details_Delete_Icon()))
+        {
+            return "Failed to click EPQ Family Details Delete Icon.";
+        }
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_Family_Details_Delete_Confirm_Button()))
+        {
+            return "Failed to wait for EPQ Family Details Delete Confirm_Button.";
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_Family_Details_Delete_Confirm_Button()))
+        {
+            return "Failed to click EPQ Family Details Delete Confirm_Button.";
+        }
+    
+        narrator.stepPassedWithScreenShot("Successfully removed Family Details.");
+        
+        return null;
+    
+    }
     //-----------------------------------------------------------------------------------------------------------
     
     

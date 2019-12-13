@@ -298,6 +298,12 @@ public class NPW_Step_Definitions extends BaseClass
         this.checkTestResult(NPW_EasiPlus_MethodClass_PreDEV.add_Payment_Details(arg1, arg2, arg3, arg4, arg5));
     }
     
+    @Then("^remove My details$")
+    public void remove_My_details() 
+    {
+        this.checkTestResult(NPW_EasiPlus_MethodClass_PreDEV.remove_My_details());
+    }
+    
     //-------------------------------------------------------
     
     @Given("^I have navigated to EasiPlus Quote$")
